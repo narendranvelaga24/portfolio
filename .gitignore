@@ -107,4 +107,4 @@ temp/
 *.tsbuildinfo
 
 # Resume files (optional - remove if you want to track resume changes)
-public/resume.pdf
+# public/resume.pdf
