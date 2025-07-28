@@ -40,7 +40,7 @@ const Hero = React.forwardRef(({ scrollY, mousePosition, isLoaded, scrollToSecti
         transition={{ staggerChildren: 0.2, delayChildren: 0.5 }}
       >
         <motion.h1 
-          className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-extralight mb-8 tracking-tight leading-none px-4"
+          className="text-7xl sm:text-6xl md:text-8xl lg:text-9xl font-extralight mb-8 tracking-tight leading-none px-4"
           variants={textReveal}
         >
           <span className="block transition-all duration-700 hover:tracking-wide">
