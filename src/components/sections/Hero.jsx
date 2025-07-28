@@ -98,17 +98,17 @@ const Hero = React.forwardRef(({ scrollY, mousePosition, isLoaded, scrollToSecti
             </span>
           </motion.button>
         </div>
-      </motion.div>
-
-      <motion.div 
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
-        initial="hidden"
-        animate={isLoaded ? "visible" : "hidden"}
-        variants={fadeIn}
-        custom={1.2}
-      >
-        <div className="w-px h-16 bg-gradient-to-b from-transparent via-neutral-400 to-transparent animate-pulse" />
-        <div className="text-xs text-neutral-500 font-mono mt-2 text-center tracking-wider">SCROLL</div>
+        
+        <motion.div 
+          className="flex flex-col items-center mt-6"
+          initial="hidden"
+          animate={isLoaded ? "visible" : "hidden"}
+          variants={fadeIn}
+          custom={1.2}
+        >
+          <div className="w-px h-16 bg-gradient-to-b from-transparent via-neutral-400 to-transparent animate-pulse" />
+          <div className="text-xs text-neutral-500 font-mono mt-2 text-center tracking-wider">SCROLL</div>
+        </motion.div>
       </motion.div>
     </section>
   );
