@@ -3,3 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Ensure black background on entire page */
+html, body {
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  background-color: #000000;
+}
