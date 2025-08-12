@@ -13,15 +13,17 @@ export const projectsData = [
         year: "2025",
         description: "A full-stack web application for booking vehicle maintenance services, combining user education, service listings, and a booking system with real-time interaction and secure authentication.",
         tech: "Node.js, Express, EJS, SQLite3, bcryptjs",
-        challenges: "Managed user sessions across multiple service selections using query parameters and session persistence."
+        challenges: "Managed user sessions across multiple service selections using query parameters and session persistence.",
+        url: "https://github.com/narendranvelaga24/service-booking-app"
     },
     {
-        title: "OfficeZero",
-        subtitle: "Document Management System",
+        title: "Whisper App",
+        subtitle: "Real-time Chat Application",
         year: "2025",
-        description: "Co-developed during a company hackathon at StackZero, enabling file uploads, internal version tracking, and secure sharing within teams using modern web technologies.",
-        tech: "React, Node.js, Git, Agile Development",
-        challenges: "Collaborated in Agile sprints with daily Scrums to deliver features under tight deadlines."
+        description: "Engineered a full-stack MERN-based real-time chat platform enabling authenticated users to engage in private and group conversations with features like search, chat previews, modals, and toast notifications.",
+        tech: "MongoDB, Express.js, React.js, Node.js, Socket.IO, Tailwind CSS",
+        challenges: "Resolved race conditions in message delivery and user status synchronization by implementing client-side state checks and debounced socket events.",
+        url: "https://github.com/narendranvelaga24/whisper-chat"
     },
     {
         title: "Etch-a-Sketch",
@@ -29,7 +31,8 @@ export const projectsData = [
         year: "2025",
         description: "An interactive browser-based sketchpad with dynamic 16×16 grid generation, featuring mouse hover effects and real-time drawing simulation with responsive design.",
         tech: "HTML, CSS, JavaScript, DOM Manipulation",
-        challenges: "Resolved grid alignment issues using box-sizing: border-box and dynamic dimension calculations."
+        challenges: "Resolved grid alignment issues using box-sizing: border-box and dynamic dimension calculations.",
+        url: "https://github.com/narendranvelaga24/Etch-a-Sketch"
     },
     {
         title: "Simon Game",
@@ -37,7 +40,8 @@ export const projectsData = [
         year: "2025",
         description: "Web-based version of the classic Simon game with growing color sequences, keyboard input, responsive interactions, and synchronized audio-visual feedback.",
         tech: "HTML, CSS, JavaScript, jQuery",
-        challenges: "Implemented sequence synchronization using setTimeout() and chaining delays for smooth feedback."
+        challenges: "Implemented sequence synchronization using setTimeout() and chaining delays for smooth feedback.",
+        url: "https://github.com/narendranvelaga24/The-Simon-Game"
     }
 ];
 

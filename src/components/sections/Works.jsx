@@ -32,9 +32,17 @@ const Works = React.forwardRef(({ handleMouseEnter, handleMouseLeave }, ref) => 
           {projectsData.map((project, index) => (
             <motion.div
               key={project.title}
-              className="group project-item border-t border-neutral-800 py-10 hover:bg-neutral-900/20 transition-colors duration-700 cursor-pointer rounded-lg px-4"
+              className={`group project-item border-t border-neutral-800 py-10 hover:bg-neutral-900/20 transition-colors duration-700 rounded-lg px-4 ${project.url ? 'cursor-pointer' : 'cursor-default'}`}
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
+              onClick={() => project.url && window.open(project.url, '_blank', 'noopener,noreferrer')}
+              onKeyDown={(e) => {
+                if ((e.key === 'Enter' || e.key === ' ') && project.url) {
+                  window.open(project.url, '_blank', 'noopener,noreferrer');
+                }
+              }}
+              role="link"
+              tabIndex={0}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, margin: "-100px" }}
