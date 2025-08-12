@@ -151,7 +151,11 @@ const App = () => {
           handleMouseLeave={handleMouseLeave}
         />
         <About ref={aboutRef} />
-        <Experience ref={experienceRef} />
+        <Experience 
+            ref={experienceRef} 
+            handleMouseEnter={handleMouseEnter} 
+            handleMouseLeave={handleMouseLeave}
+        />
         <Works 
             ref={worksRef} 
             handleMouseEnter={handleMouseEnter} 

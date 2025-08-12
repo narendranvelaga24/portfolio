@@ -54,6 +54,7 @@ export const experiencesData = [
             "Contributed to resolving front-end bugs in a production-grade React codebase, using Git for version control and effective collaboration.",
             "Participated in daily Scrum meetings and collaborated closely with team members during Agile sprint cycles to plan, develop, and ship new features.",
             "Co-developed OfficeZero, a document management system built during a company-wide hackathon, enabling file uploads, version tracking, and secure sharing."
-        ]
+        ],
+        url: "https://www.stackzero.in/"
     }
 ];
