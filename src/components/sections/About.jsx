@@ -1,5 +1,22 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import {
+  SiJavascript,
+  SiTypescript,
+  SiPython,
+  SiReact,
+  SiNodedotjs,
+  SiExpress,
+  SiTailwindcss,
+  SiMongodb,
+  SiPostgresql,
+  SiSqlite,
+  SiAmazonwebservices,
+  SiDocker,
+  SiGit,
+  SiPostman,
+  SiJira,
+} from 'react-icons/si';
 
 const About = React.forwardRef((props, ref) => {
   const textReveal = {
@@ -26,8 +43,8 @@ const About = React.forwardRef((props, ref) => {
               className="text-4xl md:text-5xl font-light leading-tight"
               initial="hidden" whileInView="visible" variants={textReveal} custom={0.1} viewport={{ once: true, margin: "-100px" }}
             >
-              Building the future through
-              <span className="text-neutral-400"> code and creativity</span>
+              Building scalable products with
+              <span className="text-neutral-400"> code, cloud, and creativity</span>
             </motion.h2>
           </div>
           
@@ -37,38 +54,103 @@ const About = React.forwardRef((props, ref) => {
                 className="text-lg text-neutral-300 leading-relaxed font-light"
                 initial="hidden" whileInView="visible" variants={textReveal} custom={0.2} viewport={{ once: true, margin: "-100px" }}
               >
-                I'm Narendran Velaga, an engineering student at Dayananda Sagar College of Engineering with a strong 
-                foundation in C/C++, JavaScript, and web development. I enjoy building functional and interactive applications.
+                I&apos;m Narendran Velaga, a Full-Stack Developer and engineering student at Dayananda Sagar College of 
+                Engineering. I design, build, test, and maintain end-to-end web applications using React, Node.js, 
+                Express, and MongoDB.
               </motion.p>
               <motion.p 
                 className="text-lg text-neutral-300 leading-relaxed font-light"
                 initial="hidden" whileInView="visible" variants={textReveal} custom={0.3} viewport={{ once: true, margin: "-100px" }}
               >
-                Currently working as a Web Development Intern at StackZero, I'm constantly learning and looking for 
-                opportunities to contribute to real-world projects and grow into a well-rounded software engineer.
+                Alongside production internship experience, I&apos;m expanding my backend and infrastructure skills by 
+                learning cloud platforms and DevOps practices, and I&apos;m open to opportunities where I can contribute 
+                to impactful software products.
               </motion.p>
             </div>
             
             <motion.div 
-              className="grid grid-cols-2 gap-8 pt-8"
+              className="pt-8"
               initial="hidden" whileInView="visible" variants={fadeIn} custom={0.4} viewport={{ once: true, margin: "-100px" }}
             >
               <div>
-                <div className="text-neutral-500 text-sm font-mono mb-4">Expertise</div>
-                <div className="space-y-2 text-sm">
-                  <div className="flex items-center space-x-3 group"><div className="w-1 h-1 bg-neutral-600 rounded-full group-hover:bg-neutral-400 transition-all duration-300" /><span>Full-Stack Development</span></div>
-                  <div className="flex items-center space-x-3 group"><div className="w-1 h-1 bg-neutral-600 rounded-full group-hover:bg-neutral-400 transition-all duration-300" /><span>Frontend Technologies</span></div>
-                  <div className="flex items-center space-x-3 group"><div className="w-1 h-1 bg-neutral-600 rounded-full group-hover:bg-neutral-400 transition-all duration-300" /><span>Database Management</span></div>
-                  <div className="flex items-center space-x-3 group"><div className="w-1 h-1 bg-neutral-600 rounded-full group-hover:bg-neutral-400 transition-all duration-300" /><span>Problem Solving</span></div>
-                </div>
-              </div>
-              <div>
                 <div className="text-neutral-500 text-sm font-mono mb-4">Technologies</div>
-                <div className="space-y-2 text-sm">
-                  <div className="flex items-center space-x-3 group"><div className="w-1 h-1 bg-neutral-600 rounded-full group-hover:bg-neutral-400 transition-all duration-300" /><span>JavaScript, React</span></div>
-                  <div className="flex items-center space-x-3 group"><div className="w-1 h-1 bg-neutral-600 rounded-full group-hover:bg-neutral-400 transition-all duration-300" /><span>Node.js, Express</span></div>
-                  <div className="flex items-center space-x-3 group"><div className="w-1 h-1 bg-neutral-600 rounded-full group-hover:bg-neutral-400 transition-all duration-300" /><span>SQL, MongoDB</span></div>
-                  <div className="flex items-center space-x-3 group"><div className="w-1 h-1 bg-neutral-600 rounded-full group-hover:bg-neutral-400 transition-all duration-300" /><span>Git, VS Code</span></div>
+                <div className="space-y-1 text-base md:text-lg">
+                  <div className="group flex flex-col items-start text-left">
+                    <div className="flex flex-wrap justify-start gap-1">
+                      <div className="w-20 md:w-24 h-20 md:h-24 flex flex-col items-center justify-center gap-1">
+                        <SiJavascript className="text-neutral-300 text-xl md:text-2xl mb-1" />
+                        <span className="leading-6">JavaScript</span>
+                      </div>
+                      <div className="w-20 md:w-24 h-20 md:h-24 flex flex-col items-center justify-center gap-1">
+                        <SiTypescript className="text-neutral-300 text-xl md:text-2xl mb-1" />
+                        <span className="leading-6">TypeScript</span>
+                      </div>
+                      <div className="w-20 md:w-24 h-20 md:h-24 flex flex-col items-center justify-center gap-1">
+                        <SiPython className="text-neutral-300 text-xl md:text-2xl mb-1" />
+                        <span className="leading-6">Python</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="group flex flex-col items-start text-left">
+                    <div className="flex flex-wrap justify-start gap-1">
+                      <div className="w-20 md:w-24 h-20 md:h-24 flex flex-col items-center justify-center gap-1">
+                        <SiReact className="text-neutral-300 text-xl md:text-2xl mb-1" />
+                        <span className="leading-6">React</span>
+                      </div>
+                      <div className="w-20 md:w-24 h-20 md:h-24 flex flex-col items-center justify-center gap-1">
+                        <SiNodedotjs className="text-neutral-300 text-xl md:text-2xl mb-1" />
+                        <span className="leading-6">Node.js</span>
+                      </div>
+                      <div className="w-20 md:w-24 h-20 md:h-24 flex flex-col items-center justify-center gap-1">
+                        <SiExpress className="text-neutral-300 text-xl md:text-2xl mb-1" />
+                        <span className="leading-6">Express</span>
+                      </div>
+                      <div className="w-20 md:w-24 h-20 md:h-24 flex flex-col items-center justify-center gap-1">
+                        <SiTailwindcss className="text-neutral-300 text-xl md:text-2xl mb-1" />
+                        <span className="leading-6">Tailwind</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="group flex flex-col items-start text-left">
+                    <div className="flex flex-wrap justify-start gap-1">
+                      <div className="w-20 md:w-24 h-20 md:h-24 flex flex-col items-center justify-center gap-1">
+                        <SiMongodb className="text-neutral-300 text-xl md:text-2xl mb-1" />
+                        <span className="leading-6">MongoDB</span>
+                      </div>
+                      <div className="w-20 md:w-24 h-20 md:h-24 flex flex-col items-center justify-center gap-1">
+                        <SiPostgresql className="text-neutral-300 text-xl md:text-2xl mb-1" />
+                        <span className="leading-6">PostgreSQL</span>
+                      </div>
+                      <div className="w-20 md:w-24 h-20 md:h-24 flex flex-col items-center justify-center gap-1">
+                        <SiSqlite className="text-neutral-300 text-xl md:text-2xl mb-1" />
+                        <span className="leading-6">SQLite</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="group flex flex-col items-start text-left">
+                    <div className="flex flex-wrap justify-start gap-1">
+                      <div className="w-20 md:w-24 h-20 md:h-24 flex flex-col items-center justify-center gap-1">
+                        <SiAmazonwebservices className="text-neutral-300 text-xl md:text-2xl mb-1" />
+                        <span className="leading-6">AWS</span>
+                      </div>
+                      <div className="w-20 md:w-24 h-20 md:h-24 flex flex-col items-center justify-center gap-1">
+                        <SiDocker className="text-neutral-300 text-xl md:text-2xl mb-1" />
+                        <span className="leading-6">Docker</span>
+                      </div>
+                      <div className="w-20 md:w-24 h-20 md:h-24 flex flex-col items-center justify-center gap-1">
+                        <SiGit className="text-neutral-300 text-xl md:text-2xl mb-1" />
+                        <span className="leading-6">Git</span>
+                      </div>
+                      <div className="w-20 md:w-24 h-20 md:h-24 flex flex-col items-center justify-center gap-1">
+                        <SiPostman className="text-neutral-300 text-xl md:text-2xl mb-1" />
+                        <span className="leading-6">Postman</span>
+                      </div>
+                      <div className="w-20 md:w-24 h-20 md:h-24 flex flex-col items-center justify-center gap-1">
+                        <SiJira className="text-neutral-300 text-xl md:text-2xl mb-1" />
+                        <span className="leading-6">Jira</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </motion.div>

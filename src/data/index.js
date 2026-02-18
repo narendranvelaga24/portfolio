@@ -1,21 +1,13 @@
 export const sectionsData = [
     { id: 'home', label: 'Home' },
     { id: 'about', label: 'About' },
+    { id: 'education', label: 'Education' },
     { id: 'experience', label: 'Experience' },
     { id: 'works', label: 'Works' },
     { id: 'contact', label: 'Contact' }
 ];
 
 export const projectsData = [
-    {
-        title: "AutoCare Hub",
-        subtitle: "Vehicle Maintenance Service",
-        year: "May 2025",
-        description: "Built a full-stack web application for booking vehicle maintenance services with secure user authentication (bcryptjs), structured profiles, booking history, and a responsive EJS-based frontend using reusable components. Implemented MVC architecture with modular routes, controllers, and SQLite models; resolved session persistence challenges in multi-service selection by managing query parameters and storing service IDs in sessions.",
-        tech: "Node.js, Express, EJS, SQLite3, bcryptjs",
-        challenges: "Managed user sessions across multiple service selections using query parameters and session persistence.",
-        url: "https://github.com/narendranvelaga24/service-booking-app"
-    },
     {
         title: "SchedulAI",
         subtitle: "AI Task Manager",
@@ -24,6 +16,15 @@ export const projectsData = [
         tech: "MongoDB, Express.js, React.js, Node.js, Tailwind CSS, JWT, bcrypt",
         challenges: "Handled concurrent backend/frontend service challenges for seamless real-time operations.",
         url: "https://github.com/narendranvelaga24/AI-Task-Manager"
+    },
+    {
+        title: "AutoCare Hub",
+        subtitle: "Vehicle Maintenance Service",
+        year: "May 2025",
+        description: "Built a full-stack web application for booking vehicle maintenance services with secure user authentication (bcryptjs), structured profiles, booking history, and a responsive EJS-based frontend using reusable components. Implemented MVC architecture with modular routes, controllers, and SQLite models; resolved session persistence challenges in multi-service selection by managing query parameters and storing service IDs in sessions.",
+        tech: "Node.js, Express, EJS, SQLite3, bcryptjs",
+        challenges: "Managed user sessions across multiple service selections using query parameters and session persistence.",
+        url: "https://github.com/narendranvelaga24/service-booking-app"
     },
     {
         title: "Whisper App",
@@ -40,12 +41,29 @@ export const experiencesData = [
     {
         company: "StackZero",
         role: "Web Development Intern",
-        period: "July 2025 – Present",
+        period: "July 2025 – November 2025",
         description: [
             "Contributed to resolving front-end bugs in a production-grade React codebase, using Git for version control and effective collaboration within a multi-developer environment.",
             "Participated in daily Scrum meetings and collaborated closely with team members during Agile sprint cycles to plan, develop, and ship new features under tight deadlines.",
-            "Assisted in designing and developing the Dreamz Designz website, focusing on creating an engaging, responsive, and user-friendly UI experience."
+            "Assisted in designing and developing the Dreamz Designz website, focusing on creating an engaging, responsive, and user-friendly interface."
         ],
         url: "https://www.stackzero.in/"
+    }
+];
+
+export const educationData = [
+    {
+        institution: "Dayananda Sagar College of Engineering",
+        program: "Bachelor of Engineering in Information Science",
+        period: "Nov. 2022 – Present",
+        detail: "CGPA: 8.7",
+        location: "Bangalore, Karnataka"
+    },
+    {
+        institution: "Little Woods School",
+        program: "PCM (CBSE) – Higher Secondary (Senior School)",
+        period: "May 2021 – April 2022",
+        detail: "Score: 85.4%",
+        location: "Kakinada, Andhra Pradesh"
     }
 ];

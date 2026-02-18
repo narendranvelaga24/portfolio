@@ -54,7 +54,7 @@ const Hero = React.forwardRef(({ scrollY, mousePosition, isLoaded, scrollToSecti
           className="text-lg md:text-xl text-neutral-400 font-light tracking-wide max-w-2xl mx-auto leading-relaxed"
           variants={textReveal}
         >
-          Engineering student passionate about web development, problem-solving, and creative programming.
+          Full-Stack Developer with hands-on experience in designing, developing, and testing. Diving into cloud platforms like AWS, DevOps, and AI.
         </motion.p>
         
         <motion.div 

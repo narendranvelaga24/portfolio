@@ -11,6 +11,7 @@ import Footer from './components/Footer.jsx';
 // Sections
 import Hero from './components/sections/Hero.jsx';
 import About from './components/sections/About.jsx';
+import Education from './components/sections/Education.jsx';
 import Experience from './components/sections/Experience.jsx';
 import Works from './components/sections/Works.jsx';
 import Contact from './components/sections/Contact.jsx';
@@ -29,6 +30,7 @@ const App = () => {
   // REFS FOR SECTIONS
   const heroRef = useRef(null);
   const aboutRef = useRef(null);
+  const educationRef = useRef(null);
   const experienceRef = useRef(null);
   const worksRef = useRef(null);
   const contactRef = useRef(null);
@@ -38,6 +40,7 @@ const App = () => {
     const sectionRefs = {
       home: heroRef,
       about: aboutRef,
+      education: educationRef,
       experience: experienceRef,
       works: worksRef,
       contact: contactRef,
@@ -151,6 +154,11 @@ const App = () => {
           handleMouseLeave={handleMouseLeave}
         />
         <About ref={aboutRef} />
+        <Education 
+          ref={educationRef} 
+          handleMouseEnter={handleMouseEnter} 
+          handleMouseLeave={handleMouseLeave}
+        />
         <Experience 
             ref={experienceRef} 
             handleMouseEnter={handleMouseEnter} 

@@ -15,8 +15,8 @@ const Footer = () => {
         animate="visible" 
         variants={fadeIn}
       >
-        <div>© {new Date().getFullYear()} <span className="transition-all duration-700 hover:tracking-wide">Narendran Velaga</span>. All rights reserved.</div>
-        <div className="font-mono">Crafted with code and creativity</div>
+        <div>©{new Date().getFullYear()} <span className="transition-all duration-700 hover:tracking-wide">Narendran Velaga</span></div>
+        <div className="font-mono">Built with curiosity, code, and consistency</div>
       </motion.div>
     </footer>
   );
