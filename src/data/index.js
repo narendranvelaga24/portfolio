@@ -9,31 +9,31 @@ export const sectionsData = [
 
 export const projectsData = [
     {
-        title: "SchedulAI",
-        subtitle: "AI Task Manager",
-        year: "August 2025",
-        description: "Built a full-stack task management application on the MERN stack that provides AI-powered scheduling, smart task grouping into 'focus sessions,' and a fully responsive, installable PWA interface for seamless offline use with IndexedDB. Implemented secure authentication with JWT and bcrypt, complete CRUD for tasks, and handled concurrent backend/frontend service challenges to ensure seamless real-time operations.",
-        tech: "MongoDB, Express.js, React.js, Node.js, Tailwind CSS, JWT, bcrypt",
-        challenges: "Handled concurrent backend/frontend service challenges for seamless real-time operations.",
-        url: "https://github.com/narendranvelaga24/AI-Task-Manager"
+        title: "Cittilenz",
+        subtitle: "AI-Powered Civic Issue Reporting Platform",
+        year: "2025",
+        description: "Built an end-to-end civic complaint platform enabling citizens to report issues with images and GPS, using PostGIS for ward-based routing, duplicate detection, and SLA-driven workflows across roles. Integrated AI image classification (YOLO, MobileNetV2) and contributed to responsive UI and backend API validation.",
+        tech: "React.js, Spring Boot, PostgreSQL, FastAPI, YOLO, MobileNetV2, PostGIS",
+        challenges: "Implemented ward-based routing and duplicate detection using spatial queries and AI-assisted image classification.",
+        url: "https://github.com/narendranvelaga24/cittilenz-ui"
     },
     {
         title: "AutoCare Hub",
         subtitle: "Vehicle Maintenance Service",
-        year: "May 2025",
-        description: "Built a full-stack web application for booking vehicle maintenance services with secure user authentication (bcryptjs), structured profiles, booking history, and a responsive EJS-based frontend using reusable components. Implemented MVC architecture with modular routes, controllers, and SQLite models; resolved session persistence challenges in multi-service selection by managing query parameters and storing service IDs in sessions.",
+        year: "2025",
+        description: "Built a comprehensive booking platform that allows users to schedule vehicle maintenance, featuring secure authentication via bcryptjs, structured profiles, and booking histories. Designed a responsive frontend with reusable EJS components and a modular MVC backend using SQLite3.",
         tech: "Node.js, Express, EJS, SQLite3, bcryptjs",
-        challenges: "Managed user sessions across multiple service selections using query parameters and session persistence.",
+        challenges: "Maintained session persistence across multi-service flows and ensured secure authentication.",
         url: "https://github.com/narendranvelaga24/service-booking-app"
     },
     {
-        title: "Whisper App",
-        subtitle: "Real-time Chat App",
-        year: "July 2025",
-        description: "Developed a full-stack real-time chat app on the MERN stack with private and group conversations, secure authentication, responsive UI, search, chat previews, modals, and toast notifications using React and Tailwind CSS. Integrated Socket.IO for live messaging, typing indicators, and chat room updates; resolved race conditions in message delivery and user status sync with client-side state checks and debounced socket events.",
-        tech: "MongoDB, Express.js, React.js, Node.js, Socket.IO, Tailwind CSS",
-        challenges: "Resolved race conditions in message delivery and user status synchronization by implementing client-side state checks and debounced socket events.",
-        url: "https://github.com/narendranvelaga24/whisper-chat"
+        title: "NewsFlow",
+        subtitle: "Personalized News Aggregator",
+        year: "2025",
+        description: "Architected a news aggregator that ranks and delivers personalized content based on user preferences and reading history. Built a backend ingestion engine with scheduled workers to fetch, normalize, and store articles from multiple external APIs while handling rate limits and reliability.",
+        tech: "Next.js, Fastify, PostgreSQL, Prisma",
+        challenges: "Designed resilient ingestion workers and personalized ranking pipelines to handle varying API rate limits and content normalization.",
+        url: "https://github.com/narendranvelaga24/Personalized-News-Aggregator"
     }
 ];
 
@@ -43,9 +43,9 @@ export const experiencesData = [
         role: "Web Development Intern",
         period: "July 2025 – November 2025",
         description: [
-            "Contributed to resolving front-end bugs in a production-grade React codebase, using Git for version control and effective collaboration within a multi-developer environment.",
-            "Participated in daily Scrum meetings and collaborated closely with team members during Agile sprint cycles to plan, develop, and ship new features under tight deadlines.",
-            "Assisted in designing and developing the Dreamz Designz website, focusing on creating an engaging, responsive, and user-friendly interface."
+            "Resolved front-end bugs in a production-grade React codebase and collaborated using Git in a multi-developer environment.",
+            "Designed and developed the Dreamz Designz website, delivering an engaging, responsive, and user-friendly interface.",
+            "Participated in Agile sprint cycles and worked closely with team members to plan and ship features."
         ],
         url: "https://www.stackzero.in/"
     }
@@ -55,7 +55,7 @@ export const educationData = [
     {
         institution: "Dayananda Sagar College of Engineering",
         program: "Bachelor of Engineering in Information Science",
-        period: "Nov. 2022 – Present",
+        period: "November 2022 – Present",
         detail: "CGPA: 8.7",
         location: "Bangalore, Karnataka"
     },

@@ -54,7 +54,7 @@ const Hero = React.forwardRef(({ scrollY, mousePosition, isLoaded, scrollToSecti
           className="text-lg md:text-xl text-neutral-400 font-light tracking-wide max-w-2xl mx-auto leading-relaxed"
           variants={textReveal}
         >
-          Full-Stack Developer with hands-on experience in designing, developing, and testing. Diving into cloud platforms like AWS, DevOps, and AI.
+          I am a Software Engineer with hands-on experience in designing, developing, testing, and maintaining full-stack applications using React, Git, REST APIs, and PostgreSQL. I build scalable, production-ready systems and leverage modern AI tools to accelerate development and enhance application capabilities. Currently expanding expertise in AWS and cloud infrastructure.
         </motion.p>
         
         <motion.div 
